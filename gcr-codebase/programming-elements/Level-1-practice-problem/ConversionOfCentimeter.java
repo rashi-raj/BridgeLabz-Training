@@ -15,5 +15,6 @@ public class ConversionOfCentimeter{
 		double foot = 12 * inch;
 		
 		System.out.print("Your height in cm is " + centimeters + " while in feet is " + foot + " and inches is " + inch);
+		input.close();
 	}
 }

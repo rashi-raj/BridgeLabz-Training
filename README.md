@@ -1,3 +1,7 @@
+# Week 1: Git, GitHub & Java Programming Fundamentals
+
+---
+
 ### 📅 Day 1 – Git & GitHub Setup
 **(Date: 16-Dec-2025)**
 

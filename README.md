@@ -97,6 +97,10 @@ BridgeLabz-Training/
 
 ---
 
+# Week2 : Worked on Strings and Extras Problems
+
+---
+
 ### 📅 Day 7 – Java Strings Practice
 **(Date: 23-Dec-2025)**
 

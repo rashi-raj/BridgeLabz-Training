@@ -67,3 +67,15 @@ BridgeLabz-Training/
 
 ---
 
+### 📅 Day 5 – Java Arrays Practice
+**(Date: 20-Dec-2025)**
+
+- Practiced Java arrays: creation, access, modification, length property  
+- Explored 2D arrays: element access, sizing  
+- Implemented System.err() and exit() for error handling  
+- Followed best practices: no hardcoding, proper naming, indentation, comments, input validation  
+
+🔗 **Code Link:**  
+👉 [Day 5 – Java Arrays Practice](https://github.com/rashi-raj/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Arrays)
+
+---

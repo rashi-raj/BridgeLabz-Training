@@ -8,6 +8,6 @@
 - Followed best practices for naming conventions and modular program structure
 
 🔗 **Code Link:**  
-👉 [Day 2 – Basic Java Programs](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
+👉 [Day 1 – Basic Java Programs](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
 
 ---

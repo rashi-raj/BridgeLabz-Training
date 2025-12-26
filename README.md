@@ -135,6 +135,6 @@ BridgeLabz-Training/
 - Solved a few LeetCode problems to strengthen problem-solving and logical thinking skills
  
 🔗 **Code Link:**  
-👉 [Day 8 – Extras Practice](https://github.com/rashi-raj/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+👉 [Day 9 – Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/core-java-practice/scenario-based)
 
 ---

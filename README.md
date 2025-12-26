@@ -84,6 +84,10 @@ BridgeLabz-Training/
 
 ---
 
+# Week2 : Worked on Strings and Extras Problems
+
+---
+
 ### 📅 Day 6 – Java Methods Practice
 **(Date: 22-Dec-2025)**
 
@@ -94,10 +98,6 @@ BridgeLabz-Training/
 
 🔗 **Code Link:**  
 👉 [Day 6 – Java Methods Practice](https://github.com/rashi-raj/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/methods)
-
----
-
-# Week2 : Worked on Strings and Extras Problems
 
 ---
 
@@ -133,7 +133,7 @@ BridgeLabz-Training/
 - Implemented programs like Election Booth Manager, Metro Smart Card Fare Deduction, and Result Generator
 - Practiced if-else, ternary operator, for-loops, switch-case, and user input handling
 - Solved a few LeetCode problems to strengthen problem-solving and logical thinking skills
-- 
+ 
 🔗 **Code Link:**  
 👉 [Day 8 – Extras Practice](https://github.com/rashi-raj/BridgeLabz-Training/tree/core-java-practice/scenario-based)
 

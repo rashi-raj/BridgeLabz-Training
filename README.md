@@ -8,6 +8,21 @@
 - Followed best practices for naming conventions and modular program structure
 
 🔗 **Code Link:**  
-👉 [Day 1 – Basic Java Programs](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
+👉 [Basic Java Programs](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
 
 ---
+
+### 📅 Day 2 – Java Constructors & Access Modifiers
+**(Date: 27-Dec-2025)**
+
+- Learned the concept of constructors in Java, their rules, and how they are used to initialize objects
+- Practiced constructor overloading using default, parameterized, and copy constructors with a real-world Coffee Shop Order example
+- Understood and implemented access modifiers (public, protected, default, private) and their scope of accessibility
+- Differentiated between instance and class (static) variables and methods using practical examples
+- Completed all assigned programs and verified outputs successfully
+
+🔗 **Code Link:**
+👉 [Constructors & Access Modifiers](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/level1)
+
+---
+

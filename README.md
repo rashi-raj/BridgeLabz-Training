@@ -141,3 +141,18 @@ BridgeLabz-Training/
 👉 [Java OOPS Basics](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/classandobject)
 
 ---
+
+### 📅 Day 10 – Java Constructors & Access Modifiers and Core java : LeetCode problem
+**(Date: 27-Dec-2025)**
+
+- Learned the concept of constructors in Java, their rules, and how they are used to initialize objects
+- Practiced constructor overloading using default, parameterized, and copy constructors with a real-world Coffee Shop Order example
+- Understood and implemented access modifiers (`public`, `protected`, `default`, `private`) and their scope of accessibility
+- Continued daily Core Java practice to strengthen fundamentals and logical thinking
+- Solved LeetCode problems focused on array manipulation and indexing logic
+
+🔗 **Code Link:**
+👉 [Constructors & Access Modifiers](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/level1)
+
+---
+

@@ -154,3 +154,19 @@ BridgeLabz-Training/
 
 ---
 
+### 📅 Day 11 – Java Practice & Scenario-Based Problems
+**(Date: 29-Dec-2025)**
+
+- Continued daily Core Java practice with multiple LeetCode problems (except Palindrome)
+- Solved problems like Alternate Digit Sum, Happy Number, Majority Element, and Single Number
+- Implemented Shopkeeper’s Discount Dashboard using loops and if-else conditions
+- Built School Bus Attendance System using for-each loop to track attendance
+- Developed interactive programs: Phone Recharge Simulator, Parking Lot Gate System, and Number Guessing Game
+- Practiced switch-case, loops, and control flow; successfully committed all code to GitHub
+
+🔗 **Code Link:** 
+👉 [LeetCode Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Basic-problems)
+👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+
+---
+

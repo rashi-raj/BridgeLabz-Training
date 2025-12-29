@@ -17,12 +17,27 @@
 
 - Learned the concept of constructors in Java, their rules, and how they are used to initialize objects
 - Practiced constructor overloading using default, parameterized, and copy constructors with a real-world Coffee Shop Order example
-- Understood and implemented access modifiers (public, protected, default, private) and their scope of accessibility
+- Understood and implemented access modifiers (`public`, `protected`, `default`, `private`) and their scope of accessibility
 - Differentiated between instance and class (static) variables and methods using practical examples
 - Completed all assigned programs and verified outputs successfully
 
 🔗 **Code Link:**
 👉 [Constructors & Access Modifiers](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/level1)
+
+---
+
+### 📅 Day 3 – Java Inbuilt Keywords (`this`, `static`, `final`, `instanceof`)
+**(Date: 29-Dec-2025)**
+
+- Learned and understood the purpose and usage of Java inbuilt keywords: this, static, final, and instanceof
+- Used the this keyword to resolve ambiguity between instance variables and constructor parameters and to support constructor chaining
+- Implemented static variables and methods for shared data, utility functions, and memory-efficient class-level behavior
+- Applied the final keyword to create constants, prevent reassignment, restrict method overriding, and stop class inheritance
+- Used the instanceof operator for safe type-checking before casting objects in polymorphic scenarios
+- Developed and verified real-world programs including Bank Account System, Library Management System, Employee Management System, and Shopping Cart System
+
+🔗 **Code Link:**
+👉 [Java Inbuilt Keywords](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/keywords)
 
 ---
 

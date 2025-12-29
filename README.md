@@ -156,3 +156,19 @@ BridgeLabz-Training/
 
 ---
 
+### 📅 Day 11 – Java Practice, LeetCode & Inbuilt Keywords
+**(Date: 29-Dec-2025)**
+
+- Continued daily Core Java practice with multiple LeetCode problems (except Palindrome) such as Alternate Digit Sum, Happy Number, Majority Element, and Single Number
+- Solved multiple scenario-based programs including Shopkeeper’s Discount Dashboard, School Bus Attendance System, Phone Recharge Simulator, Parking Lot Gate System, and Number Guessing Game
+- Practiced loops (for, for-each, while, do-while), if-else, and switch-case for better control flow and logic building
+- Learned and implemented Java inbuilt keywords: this, static, final, and instanceof with real-world use cases
+- Built mini systems like Bank Account, Library Management, Employee Management, and Shopping Cart to apply keyword concepts
+- Successfully committed all Java practice, LeetCode solutions, and scenario-based programs to GitHub
+
+🔗 **Code Links:**
+👉 [LeetCode Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Basic-problems)
+👉 [Inbuilt Oops keywords](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/keywords)
+👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/core-java-practice/scenario-based)
+
+---

@@ -138,3 +138,19 @@ BridgeLabz-Training/
 👉 [Day 9 – Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/core-java-practice/scenario-based)
 
 ---
+
+### 📅 Day 10 – Daily Java Practice & LeetCode
+**(Date: 27-Dec-2025)**
+
+- Continued daily Core Java practice to strengthen fundamentals and logical thinking
+- Solved LeetCode problems focused on array manipulation and indexing logic
+- Implemented Search Insert Position to determine correct index placement using efficient traversal
+- Solved Remove Element problem by modifying the array in-place and returning the correct count
+- Improved understanding of loops, conditionals, and edge-case handling
+- Successfully committed all solutions to GitHub
+
+🔗 **Code Link:**
+👉 [Day 10 – Core Java Practice & LeetCode](https://github.com/rashi-raj/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/Arrays)
+
+---
+

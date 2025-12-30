@@ -170,3 +170,16 @@ BridgeLabz-Training/
 
 ---
 
+### 📅 Day 12 – LeetCode & Advanced Scenario-Based Java Practice
+**(Date: 30-Dec-2025)**
+
+- Solved LeetCode problems: `Isomorphic Strings` and `Power of Two` to strengthen string mapping and bit/loop logic
+- Implemented `Temperature Logger` using arrays and for-loop to calculate average and maximum temperature
+- Built `Train Reservation Queue` using switch-case and while-loop with seat availability control
+- Developed `Fitness Challenge Tracker` using for-each loop to compute total and average while skipping rest days
+- Created interactive applications: Movie `Ticket Booking App` and `Library Reminder App` with proper validations and looping logic
+- Practiced clean coding, modular structure, meaningful variable names, and committed all solutions to GitHub
+
+🔗 **Code Links:**
+👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/core-java-practice/scenario-based/Day-4)
+👉 [LeetCode Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)

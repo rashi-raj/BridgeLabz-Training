@@ -41,3 +41,17 @@
 
 ---
 
+### 📅 Day 4 – Classes, Objects & Object-Oriented Design Basics
+**(Date: 30-Dec-2025)**
+
+- Learned the difference between Classes and Objects including definition, purpose, memory allocation, syntax, and real-world relevance
+- Understood class as a blueprint and object as an instance, with heap memory allocation for objects and shared structure via classes
+- Implemented a Bank Account System to demonstrate object creation, method invocation, encapsulation, and unique object states
+- Designed a School Management System using multiple interacting classes (Student, Teacher, Course, School)
+- Explored object relationships such as `association` and `aggregation`, and how objects communicate using method calls
+- Studied UML basics, including Class Diagrams (static structure) and Sequence Diagrams (dynamic interaction flow) for system design
+
+🔗 **Code Link:**
+👉 [Object Modelling](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodelling)
+
+---

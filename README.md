@@ -83,6 +83,7 @@
 
 🔗 **Code Link:**
 👉 [Encapsulation, Polymorphism, Abstract Class & Interface](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulation)
+👉 [Scenario based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day1)
 
 ---
 
@@ -95,5 +96,8 @@
 - Practiced Compile-time Polymorphism using method overloading and Runtime Polymorphism using method overriding with inheritance
 - Explored polymorphism using interfaces and abstract classes, enabling dynamic behavior through superclass and interface references
 - Understood type casting and instanceof for safe downcasting in polymorphic scenarios, and compared Abstract Classes vs Interfaces with their use cases and best practices
+
+🔗 **Code Link:**
+👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day2)
 
 ---

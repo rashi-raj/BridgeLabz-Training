@@ -70,3 +70,19 @@
 👉 [Java Inheritance & Polymorphism Practice](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
 
 ---
+
+### 📅 Day 6 – Encapsulation, Polymorphism, Abstract Classes & Interfaces
+**(Date: 01-Jan-2026)**
+
+- Learned Encapsulation as a core OOP principle to bundle data and methods, achieve data hiding, and protect object integrity using private fields with public getters and setters
+- Implemented a Bank Account System to enforce validation rules for balance, deposits, and withdrawals through controlled access methods
+- Studied Polymorphism and its benefits including code reusability, flexibility, and extensibility
+- Practiced Compile-time polymorphism using method overloading and Runtime polymorphism using method overriding with inheritance
+- Explored polymorphism using interfaces and abstract classes, enabling dynamic behavior through superclass and interface references
+- Understood casting and instanceof for safe downcasting in polymorphic scenarios
+- Learned Abstract Classes vs Interfaces, their features, differences, use cases, and best practices for designing scalable and loosely coupled systems
+
+🔗 **Code Link:**
+👉 [Encapsulation, Polymorphism, Abstract Class & Interface](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulation)
+
+---

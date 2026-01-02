@@ -182,4 +182,18 @@ BridgeLabz-Training/
 
 🔗 **Code Links:**
 👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/core-java-practice/scenario-based/Day-4)
-👉 [LeetCode Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase)
+
+---
+
+### 📅 Day 13 – Core Java Scenario-Based Practice
+**(Date: 31-Dec-2025)**
+
+- Simulated a Digital Watch using nested for-loops to print 24-hour time format and applied break to stop execution at 13:00 (power cut simulation)
+- Built an `Online Quiz Application` using arrays and for-loops to ask MCQs, calculate scores, and validate answers using switch-case
+- Designed a `Currency Exchange Kiosk` to convert INR into multiple currencies using switch-case and do-while loop for repeated conversions
+- Implemented a `Bus Route Distance Tracker` using while-loop to calculate total distance travelled with user-controlled exit at stops
+- Created a Festival Lucky Draw System applying conditional logic, modulus operator, loops, and continue for invalid inputs
+- Strengthened understanding of loops, switch-case, conditional statements, clean structure, and committed all scenario-based programs to GitHub
+
+🔗 **Code Links:**
+👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/core-java-practice/scenario-based/Day-5)

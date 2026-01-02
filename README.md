@@ -55,3 +55,18 @@
 👉 [Object Modelling](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodelling)
 
 ---
+
+### 📅 Day 5 – Java Inheritance & Polymorphism
+**(Date: 31-Dec-2025)**
+
+- Learned the concept of Inheritance in Java as a core OOP principle for reusing and extending existing class behavior
+- Understood superclass and subclass relationships, including how child classes inherit fields and methods from parent classes
+- Implemented different types of inheritance: `Single`, `Multilevel`, `Hybrid` and `Hierarchical` using real-world examples
+- Practiced method overriding to achieve runtime polymorphism and modify parent class behavior in child classes
+- Studied constructor chaining using `super()` and learned why constructors are not inherited in Java
+- Explored access modifiers (public, protected, default, private) and their role in inheritance and data visibility
+
+🔗 **Code Link:**
+👉 [Java Inheritance & Polymorphism Practice](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
+
+---

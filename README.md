@@ -71,18 +71,29 @@
 
 ---
 
-### 📅 Day 6 – Encapsulation, Polymorphism, Abstract Classes & Interfaces
+### 📅 Day 6 – Encapsulation, Polymorphism & OOP Scenario-Based Design
 **(Date: 01-Jan-2026)**
 
-- Learned Encapsulation as a core OOP principle to bundle data and methods, achieve data hiding, and protect object integrity using private fields with public getters and setters
-- Implemented a Bank Account System to enforce validation rules for balance, deposits, and withdrawals through controlled access methods
-- Studied Polymorphism and its benefits including code reusability, flexibility, and extensibility
-- Practiced Compile-time polymorphism using method overloading and Runtime polymorphism using method overriding with inheritance
-- Explored polymorphism using interfaces and abstract classes, enabling dynamic behavior through superclass and interface references
-- Understood casting and instanceof for safe downcasting in polymorphic scenarios
-- Learned Abstract Classes vs Interfaces, their features, differences, use cases, and best practices for designing scalable and loosely coupled systems
+- Learned Encapsulation to achieve data hiding and integrity using private fields with public getters/setters, implemented through a Bank Account System with proper validation
+- Studied Polymorphism, including compile-time (method overloading) and runtime (method overriding) to enable flexible and reusable code
+- Practiced polymorphism using inheritance, interfaces, and abstract classes, along with safe downcasting using instanceof
+- Understood Abstract Classes vs Interfaces, their differences, use cases, and best practices for building loosely coupled and scalable systems
+- Learned a structured approach to solve OOP scenario-based problems, including identifying entities, responsibilities, relationships, and behaviors
+- Applied OOP design planning by defining classes, attributes, methods, constructors, access modifiers, and choosing appropriate data structures (arrays, lists, maps) based on problem requirements Learned Abstract Classes vs Interfaces, their features, differences, use cases, and best practices for designing scalable and loosely coupled systems
 
 🔗 **Code Link:**
 👉 [Encapsulation, Polymorphism, Abstract Class & Interface](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulation)
+
+---
+
+### 📅 Day 7– Scenario Based Problems
+**(Date: 02-Jan-2026)**
+
+- Learned Encapsulation as a core OOP principle to bundle data and methods, ensure data hiding, and protect object integrity using private fields with public getters and setters
+- Implemented a Bank Account System to enforce validation rules for balance, deposits, and withdrawals through controlled access methods
+- Studied Polymorphism and its advantages such as code reusability, flexibility, and extensibility
+- Practiced Compile-time Polymorphism using method overloading and Runtime Polymorphism using method overriding with inheritance
+- Explored polymorphism using interfaces and abstract classes, enabling dynamic behavior through superclass and interface references
+- Understood type casting and instanceof for safe downcasting in polymorphic scenarios, and compared Abstract Classes vs Interfaces with their use cases and best practices
 
 ---

@@ -1,7 +1,3 @@
-# Week 1: Git, GitHub & Java Programming Fundamentals
-
----
-
 ### 📅 Day 1 – Git & GitHub Setup
 **(Date: 16-Dec-2025)**
 
@@ -81,10 +77,6 @@ BridgeLabz-Training/
 
 🔗 **Code Link:**  
 👉 [Day 5 – Java Arrays Practice](https://github.com/rashi-raj/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Arrays)
-
----
-
-# Week2 : Worked on Strings and Extras Problems
 
 ---
 

@@ -117,3 +117,16 @@
 👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day3)
 
 ---
+
+### 📅 Day 9 – Scenario Based Problems
+**(Date: 05-Jan-2026)**
+
+- Designed `CampusConnect` college system using OOP concepts (inheritance, encapsulation, interfaces, polymorphism)
+- Implemented student–faculty–course management with GPA calculation
+- Designed `SwiftCart` grocery shopping app backend for cart and billing
+- Applied secure price handling, polymorphic discounts, and item-wise bill generation
+
+🔗 **Code Link:**
+👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day4)
+
+---

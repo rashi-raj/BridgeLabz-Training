@@ -197,5 +197,25 @@ BridgeLabz-Training/
 
 ---
 
+### 📅 Day 13 – Java Inheritance and Scenario-based Problems 
+**(Date: 31-Dec-2025)**
+
+- Learned `Single`, `Multilevel`, and `Hierarchical` inheritance using classes to reuse and extend common behaviour
+- Understood that `Multiple inheritance` is not supported with classes in Java due to `ambiguity` (diamond problem)
+- Implemented `Hybrid` inheritance using `interfaces`, combining extends and implements for multiple behaviours
+- Practised scenario-based Java programs, including:
+  - Bus Route Distance Tracker
+  - Currency Exchange Kiosk
+  - Digital Watch Simulation
+  - Festival Lucky Draw
+  - Online Quiz Application
+- Practised conditional logic, loops, and switch–case, with emphasis on clean structure, proper
+
+🔗**Code Link:**
+👉 [Inheritance Practice Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
+👉 [Scenario-based Problems ](https://github.com/rashi-raj/BridgeLabz-Training/tree/core-java-practice/scenario-based/Day-5)
+
+---
+
 
 

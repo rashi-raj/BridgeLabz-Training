@@ -101,3 +101,19 @@
 👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day2)
 
 ---
+
+### 📅 Day 8 – Scenario Based Problems
+**(Date: 03-Jan-2026)**
+
+- Designed CabbyGo Ride-Hailing System using OOP principles with Vehicle and Driver management
+- Applied Encapsulation to secure sensitive data like fare and ratings
+- Implemented Inheritance & Polymorphism with Mini, Sedan, and SUV vehicle types
+- Used interfaces to standardize ride booking and completion logic
+- Built MyBank Account Management System with Savings and Current accounts
+- Practiced constructors, access modifiers, and operator-based calculations for interest and fare
+- Strengthened understanding of real-world OOP design and clean code structure
+
+🔗 **Code Link:**
+👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day3)
+
+---

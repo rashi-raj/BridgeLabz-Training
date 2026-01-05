@@ -217,7 +217,7 @@ BridgeLabz-Training/
 
 ---
 
-### 📅 Day 14 – Core Oops Concepts and Practised Oops-based Scenario problems
+### 📅 Day 14 – Core Oops Concepts and Practiced Oops-based Scenario problems
 **(Date: 01-Jan-2026)**
 
 - Learned `Encapsulation` for data protection and `Polymorphism` (overloading & overriding) for `dynamic behaviour`
@@ -229,6 +229,25 @@ BridgeLabz-Training/
 🔗**Code Link:** 
 👉 [Encapsulation, Polymorphism, Abstract Class & Interface](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulation)
 👉 [Scenario-based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day1)
+
+---
+
+### 📅 Day 15 – Explored DSA, Practised LinkedList and Oops-based Scenario problems
+**(Date: 02-Jan-2026)**
+
+- Studied Data Structures and Algorithms to organise data efficiently; covered `linear` (array, linked list, stack, queue) and `non-linear` (tree, graph) structures.
+- Importance: Improves problem-solving, optimises `time/space complexity`, and builds strong coding and interview foundations.
+- Implemented and practised Linked Lists, `singly`, `doubly`, and `circular Linked List` with core operations.
+- Practised oops-based scenario problems, including
+  - E-Wallet Application
+  - Smart Home Automation System
+  - University Course Enrollment System
+  - Vehicle Rental Application
+  - Hospital Patient Management System
+
+🔗**Code Link:** 
+👉 [LinkedList Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/linkedlist)
+👉 [Scenario-based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day2)
 
 ---
 

@@ -232,7 +232,7 @@ BridgeLabz-Training/
 
 ---
 
-### 📅 Day 15 – Explored DSA, Practised LinkedList and Oops-based Scenario problems
+### 📅 Day 15 – Explored DSA, Practiced LinkedList and Oops-based Scenario problems
 **(Date: 02-Jan-2026)**
 
 - Studied Data Structures and Algorithms to organise data efficiently; covered `linear` (array, linked list, stack, queue) and `non-linear` (tree, graph) structures.
@@ -251,7 +251,7 @@ BridgeLabz-Training/
 
 ---
 
-### 📅 Day 16 – Practised Stack, Queue and HashMap and Oops-based Scenario problems
+### 📅 Day 16 – Practiced Stack, Queue and HashMap and Oops-based Scenario problems
 **(Date: 03-Jan-2026)**
 
 - Learned Stack data structure and implemented operations like push, pop, peek using LIFO principle

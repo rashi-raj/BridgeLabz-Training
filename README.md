@@ -251,5 +251,24 @@ BridgeLabz-Training/
 
 ---
 
+### 📅 Day 16 – Practised Stack, Queue and HashMap and Oops-based Scenario problems
+**(Date: 03-Jan-2026)**
 
+- Learned Stack data structure and implemented operations like push, pop, peek using LIFO principle
+- Practiced Queue concepts with enqueue, dequeue, and front operations following FIFO order
+- Explored real-world use cases of Stack (undo/redo, expression evaluation) and Queue (task scheduling, buffering)
+- Studied HashMap for key–value storage, fast lookups, insertions, and deletions
+- Understood Hash Functions, hashing mechanism, and collision handling concepts
+- Solved basic problems using HashMap such as frequency counting and lookup-based logic
+- Practised oops-based scenario problems, including
+   - CabbyGo App
+   - My Bank App 
+
+🔗**Code Link:** 
+👉 [Stack Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/stack)
+👉 [Queue Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/queue)
+👉 [HashMap Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/hashmap)
+👉 [Scenario-based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day3)
+
+---
 

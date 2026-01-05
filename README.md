@@ -156,6 +156,10 @@ BridgeLabz-Training/
 
 ---
 
+# Week 3: Worked on Java OOPs Practice Problems and Scenario-based Problems
+
+---
+
 ### 📅 Day 11 – Java Practice, LeetCode & Inbuilt Keywords
 **(Date: 29-Dec-2025)**
 
@@ -172,3 +176,26 @@ BridgeLabz-Training/
 👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/core-java-practice/scenario-based)
 
 ---
+
+### 📅 Day 12 – Object-Oriented Design Principles and Scenario-based Problems 
+**(Date: 30-Dec-2025)**
+
+- Explored core OOP design principles with a focus on `object modelling` concepts
+- Studied Class Diagrams, Object Diagrams, and Sequence Diagrams in detail
+- Understood and compared relationships: `Association`, `Aggregation`, `Composition`, and `Communication`
+- Practiced scenario-based Java programs, including:
+  - Movie Ticket Booking App
+  - Rohan’s Library Reminder App
+  - Fitness Challenge Tracker
+  - Temperature Logger System
+  - Train Reservation System
+- Focused on conditional logic, switch–case with if, loops, and clean program structure
+
+🔗**Code Link:**
+👉 [Practice Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/objectmodelling)
+👉 [Scenario-based Problems ](https://github.com/rashi-raj/BridgeLabz-Training/tree/core-java-practice/scenario-based/Day-4)
+
+---
+
+
+

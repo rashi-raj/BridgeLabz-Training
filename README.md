@@ -30,3 +30,17 @@
 
 ---
 
+### 📅 Day 3 – Practiced Sorting Algorithms
+**(Date: 05-Jan-2026)**
+
+- Learned Sorting Algorithms to arrange data efficiently in ascending order
+- Implemented `Bubble Sort` using repeated adjacent comparisons and swaps
+- Practiced `Selection Sort` by selecting the minimum element for correct placement
+- Studied `Insertion Sort` by inserting elements into their correct position in a sorted part
+- Implemented `Merge Sort` using divide-and-conquer technique
+- Practiced `Quick Sort` using pivot-based partitioning and recursion
+- Learned `Heap Sort` using heap data structure for efficient sorting
+- Implemented `Counting Sort` as a non-comparison-based sorting algorithm
+
+🔗**Code Link:** 
+👉 [Sorting Algorithms Practice](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/sortingalgorithms)

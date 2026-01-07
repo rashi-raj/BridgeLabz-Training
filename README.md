@@ -130,3 +130,16 @@
 👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day4)
 
 ---
+
+### 📅 Day 10 – Scenario Based Problems
+**(Date: 06-Jan-2026)**
+
+- Implemented real-world applications: `Event Management`, `Fitness Tracker`, `Personalized Learning`, and `Virtual Pet Care`
+- Applied core OOP concepts: Encapsulation, Inheritance, Abstraction, Polymorphism
+- Focused on clean class design, constructors, and access control
+- Practiced business-logic driven, modular Java programming
+
+🔗 **Code Link:**
+👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day5)
+
+---

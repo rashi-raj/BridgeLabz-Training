@@ -272,6 +272,9 @@ BridgeLabz-Training/
 
 ---
 
+# Week 4: Worked on DSA problems and Java Oops Scenario-based Problems
+
+---
 ### 📅 Day 17 – Sorting Algorithms Practice and Oops-based Scenario problems
 **(Date: 05-Jan-2026)**
 
@@ -290,3 +293,24 @@ BridgeLabz-Training/
 👉 [Scenario-based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day4)
 
 ---
+
+### 📅 Day 18 – Practiced StringBuffer, StringBuilder, File Handling & Searching Algorithms and Oops-based Scenario problems
+**(Date: 06-Jan-2026)**
+
+- Learned `StringBuilder` for mutable and fast string operations (non-synchronized)
+- Studied `StringBuffer` for thread-safe string manipulation (synchronized)
+- Understood differences between String, StringBuilder, and StringBuffer
+- Practiced `FileReader` to read data from files using character streams
+- Implemented `Linear Search` to find elements by sequential traversal
+- Practiced `Binary Search` on sorted data for efficient searching
+- Practised oops-based scenario problems, including: Event Management, Fitness Tracker, Personalized Learning, and Virtual Pet Care
+- Applied core OOP concepts: Encapsulation, Inheritance, Abstraction, Polymorphism
+
+🔗**Code Link:**
+👉 [Binary Search](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/binarysearch)
+👉 [Linear Search](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/linearsearch)
+👉 [StringBuffer](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/stringbuffer)
+👉 [StringBuilder](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/stringbuilder)
+👉 [File Reader](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/filereader)
+👉 [Input Stream Reader](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/inputstreamreader)
+👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day5)

@@ -305,3 +305,20 @@ BridgeLabz-Training/
 👉 [File Reader](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/filereader)
 👉 [Input Stream Reader](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/inputstreamreader)
 👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day5)
+
+### 📅 Day 19 – Algorithm's Runtime Analysis & Big-O Notation and Oops-based Scenario problems
+**(Date: 07-Jan-2026)**
+
+- Compared Linear Search (O(N)) vs Binary Search (O(log N)), showing how binary search drastically reduces search time for large, sorted datasets.
+- Analyzed Bubble Sort (O(N²)) vs Merge Sort & Quick Sort (O(N log N)), highlighting why quadratic algorithms fail at scale.
+- Evaluated String vs StringBuilder vs StringBuffer for concatenation, demonstrating why mutable strings are essential for performance.
+- Studied FileReader vs InputStreamReader for large file handling, observing better efficiency with byte-based streams.
+- Compared Recursive vs Iterative Fibonacci, proving that exponential recursion is infeasible for large inputs.
+- Measured lookup performance of Array, HashSet, and TreeSet, concluding HashSet as fastest and TreeSet useful when ordering is required.
+- Practised oops-based scenario problems, including: Digital Bookstore System, Loan Approval Automation, and Smart Parking System
+
+🔗**Code Link:**
+👉 [Algorithm's Runtime Analysis and Big-O Notation](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/runtimeanalysis)
+👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day6)
+
+---

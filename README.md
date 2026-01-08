@@ -64,3 +64,20 @@
 👉 [StringBuilder](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/stringbuilder)
 👉 [File Reader](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/filereader)
 👉 [Input Stream Reader](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/inputstreamreader)
+
+---
+
+### 📅 Day 5 – Algorithm's Runtime Analysis and Big-O Notation
+**(Date: 07-Jan-2026)**
+
+- Compared Linear Search (O(N)) vs Binary Search (O(log N)), showing how binary search drastically reduces search time for large, sorted datasets.
+- Analyzed Bubble Sort (O(N²)) vs Merge Sort & Quick Sort (O(N log N)), highlighting why quadratic algorithms fail at scale.
+- Evaluated String vs StringBuilder vs StringBuffer for concatenation, demonstrating why mutable strings are essential for performance.
+- Studied FileReader vs InputStreamReader for large file handling, observing better efficiency with byte-based streams.
+- Compared Recursive vs Iterative Fibonacci, proving that exponential recursion is infeasible for large inputs.
+- Measured lookup performance of Array, HashSet, and TreeSet, concluding HashSet as fastest and TreeSet useful when ordering is required.
+
+🔗**Code Link:**
+👉 [Algorithm's Runtime Analysis and Big-O Notation](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/runtimeanalysis)
+
+---

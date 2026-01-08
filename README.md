@@ -1,6 +1,4 @@
-# Week 1: Git, GitHub & Java Programming Fundamentals
-
----
+# Week 1: Git, GitHub & Core Java Programming
 
 ### 📅 Day 1 – Git & GitHub Setup
 **(Date: 16-Dec-2025)**
@@ -84,10 +82,6 @@ BridgeLabz-Training/
 
 ---
 
-# Week2 : Worked on Strings, Extras Problems and Oops concepts
-
----
-
 ### 📅 Day 6 – Java Methods Practice
 **(Date: 22-Dec-2025)**
 
@@ -126,6 +120,8 @@ BridgeLabz-Training/
 
 ---
 
+# Week2 : Object Oriented Programming
+
 ### 📅 Day 9 – Java OOPS Basics and Core java : Scenario-Based, LeetCode Problems
 **(Date: 26-Dec-2025)**
 
@@ -153,10 +149,6 @@ BridgeLabz-Training/
 
 🔗 **Code Link:**
 👉 [Constructors & Access Modifiers](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructor/level1)
-
----
-
-# Week 3: Worked on Java OOPs Practice Problems and Scenario-based Problems
 
 ---
 
@@ -232,6 +224,8 @@ BridgeLabz-Training/
 
 ---
 
+# Week 3: Data Structures And Algorithms
+
 ### 📅 Day 15 – Explored DSA, Practiced LinkedList and Oops-based Scenario problems
 **(Date: 02-Jan-2026)**
 
@@ -272,9 +266,6 @@ BridgeLabz-Training/
 
 ---
 
-# Week 4: Worked on DSA problems and Java Oops Scenario-based Problems
-
----
 ### 📅 Day 17 – Sorting Algorithms Practice and Oops-based Scenario problems
 **(Date: 05-Jan-2026)**
 

@@ -157,3 +157,15 @@
 👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day6)
 
 ---
+
+### 📅 Day 12 – Scenario Based Problems
+**(Date: 08-Jan-2026)**
+
+- Implemented `MediStore pharmacy system`using inheritance, interfaces, encapsulation, and polymorphism
+- Designed `TourMate travel planner` with trip booking, budget calculation, and polymorphic behavior
+- Practiced real-world OOP design with clean, modular Java code
+
+🔗 **Code Link:**
+👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day7)
+
+---

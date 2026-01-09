@@ -279,6 +279,7 @@ BridgeLabz-Training/
 - Practised oops-based scenario problems, including
    - College Information System
    - Grocery Shopping App
+  
 🔗**Code Link:** 
 👉 [Sorting Algorithm](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/sortingalgorithms)
 👉 [Scenario-based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day4)
@@ -306,6 +307,8 @@ BridgeLabz-Training/
 👉 [Input Stream Reader](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/inputstreamreader)
 👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day5)
 
+---
+
 ### 📅 Day 19 – Algorithm's Runtime Analysis & Big-O Notation and Oops-based Scenario problems
 **(Date: 07-Jan-2026)**
 
@@ -320,5 +323,17 @@ BridgeLabz-Training/
 🔗**Code Link:**
 👉 [Algorithm's Runtime Analysis and Big-O Notation](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/runtimeanalysis)
 👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day6)
+
+---
+
+### 📅 Day 20 – OOPs Scenario Based Problems
+**(Date: 08-Jan-2026)**
+
+- Implemented `MediStore pharmacy system`using inheritance, interfaces, encapsulation, and polymorphism
+- Designed `TourMate travel planner` with trip booking, budget calculation, and polymorphic behavior
+- Practiced real-world OOP design with clean, modular Java code
+
+🔗 **Code Link:**
+👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day7)
 
 ---

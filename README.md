@@ -169,3 +169,16 @@
 👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day7)
 
 ---
+
+### 📅 Day 13 – Scenario Based Problems
+**(Date: 09-Jan-2026)**
+
+- Built `Artify` – Digital Art Marketplace implementing purchase, licensing logic using inheritance, interfaces, and polymorphism
+- Developed `FoodLoop` – Restaurant Ordering System with order management, discounts, and item categorization
+- Designed `SkillForge` – Online Learning Portal with course enrollment, certification, and role-based behavior
+- Strengthened OOP concepts: encapsulation, inheritance, interfaces, polymorphism, constructors, and operators through real-world use cases
+
+- 🔗 **Code Link:**
+👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day8)
+
+---

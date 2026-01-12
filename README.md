@@ -338,7 +338,7 @@ BridgeLabz-Training/
 
 ---
 
-### 📅 Day 21 – Scenario Based Problems
+### 📅 Day 21 – Oops Scenario Based Problems
 **(Date: 09-Jan-2026)**
 
 - Built `Artify` – Digital Art Marketplace implementing purchase, licensing logic using inheritance, interfaces, and polymorphism
@@ -348,5 +348,17 @@ BridgeLabz-Training/
 
 🔗 **Code Link:**
 👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day8)
+
+---
+
+### 📅 Day 22 – DSA Scenario Based problems
+**(Date: 10-Jan-2026)**
+
+- BookShelf(Library Organizer): Implemented a genre-wise library system using HashMap + LinkedList to manage books efficiently, with optional HashSet to avoid duplicates.
+- BrowserBuddy(Tab History Manager): Designed browser tab navigation using Doubly Linked List for back/forward history and Stack to restore recently closed tabs.
+- AmbulanceRoute(Emergency Patient Navigation) : Simulated hospital unit navigation using a Circular Linked List to rotate through units, handle redirection, and remove units under maintenance.
+
+🔗**Code Link:**
+👉 [Scenario Based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day1)
 
 ---

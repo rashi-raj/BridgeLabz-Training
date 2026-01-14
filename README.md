@@ -178,7 +178,7 @@
 - Designed `SkillForge` – Online Learning Portal with course enrollment, certification, and role-based behavior
 - Strengthened OOP concepts: encapsulation, inheritance, interfaces, polymorphism, constructors, and operators through real-world use cases
 
-- 🔗 **Code Link:**
+🔗 **Code Link:**
 👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day8)
 
 ---
@@ -191,7 +191,19 @@
 - `GameBox` – Mobile game platform with genre-based behavior, secure user data, and seasonal offers.
 - Practiced real-world OOP design with clean, modular Java code.
 
-- - 🔗 **Code Link:**
+🔗 **Code Link:**
 👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day9)
+
+---
+
+### 📅 Day 15 – Scenario Based Problems
+**(Date: 13-Jan-2026)**
+
+- `PayXpress` – Utility Bill Payment System – Managed bills (Electricity, Water, Internet) with inheritance, interfaces, encapsulation, and polymorphic reminders.
+- `Bird Sanctuary` – Tracked birds with different abilities (fly/swim/both/none) using inheritance, interfaces, and polymorphism; maintained a list of birds and behavior-based actions.
+- Practiced clean, modular Java OOP design with real-world scenarios.
+
+🔗 **Code Link:**
+👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day10)
 
 ---

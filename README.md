@@ -182,3 +182,16 @@
 👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day8)
 
 ---
+
+### 📅 Day 14 – Scenario Based Problems
+**(Date: 12-Jan-2026)**
+
+- `HomeNest` – Managed smart devices (Light, Camera, Thermostat, Lock) with inheritance, interfaces, encapsulation, and polymorphism.
+- `BudgetWise` – Tracked income/expenses and budgets using inheritance and polymorphic reports.
+- `GameBox` – Mobile game platform with genre-based behavior, secure user data, and seasonal offers.
+- Practiced real-world OOP design with clean, modular Java code.
+
+- - 🔗 **Code Link:**
+👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day9)
+
+---

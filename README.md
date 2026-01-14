@@ -81,3 +81,13 @@
 👉 [Algorithm's Runtime Analysis and Big-O Notation](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/JavaDsaPractice/src/com/runtimeanalysis)
 
 ---
+
+### 📅 Day 6 – Scenario Based problems
+**(Date: 09-Jan-2026)**
+
+- BookShelf(Library Organizer): Implemented a genre-wise library system using HashMap + LinkedList to manage books efficiently, with optional HashSet to avoid duplicates.
+- BrowserBuddy(Tab History Manager): Designed browser tab navigation using Doubly Linked List for back/forward history and Stack to restore recently closed tabs.
+- AmbulanceRoute(Emergency Patient Navigation) : Simulated hospital unit navigation using a Circular Linked List to rotate through units, handle redirection, and remove units under maintenance.
+
+🔗**Code Link:**
+👉 [Scenario Based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day1)

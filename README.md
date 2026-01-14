@@ -104,3 +104,15 @@
 
 🔗**Code Link:**
 👉 [Scenario Based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day2)
+
+---
+
+### 📅 Day 8 – Scenario Based problems
+**(Date: 13-Jan-2026)**
+
+- Implemented SmartCheckout – Supermarket Billing Queue using Queue and HashMap to manage customer checkout flow, fetch item prices, and update stock after purchases
+- Built ParcelTracker – Delivery Chain Management using a Singly Linked List to track parcel movement across stages and handle missing or interrupted deliveries
+- Developed ExamProctor – Online Exam Review System using Stack and HashMap to track question navigation, store answers, and auto-evaluate exam scores using functions
+
+🔗**Code Link:**
+👉 [Scenario Based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day3)

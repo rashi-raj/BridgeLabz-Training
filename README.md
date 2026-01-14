@@ -379,3 +379,19 @@ BridgeLabz-Training/
 👉 [OOPs Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day9)
 
 ---
+
+### 📅 Day 24 – DSA and OOPs Scenario Based problems
+**(Date: 13-Jan-2026)**
+
+- `Implemented SmartCheckout` – Supermarket Billing Queue using Queue and HashMap to manage customer checkout flow, fetch item prices, and update stock after purchases
+- `Built ParcelTracker` – Delivery Chain Management using a Singly Linked List to track parcel movement across stages and handle missing or interrupted deliveries
+- `Developed ExamProctor` – Online Exam Review System using Stack and HashMap to track question navigation, store answers, and auto-evaluate exam scores using functions
+- `PayXpress` – Utility Bill Payment System – Managed bills (Electricity, Water, Internet) with inheritance, interfaces, encapsulation, and polymorphic reminders.
+- `Bird Sanctuary` – Tracked birds with different abilities (fly/swim/both/none) using inheritance, interfaces, and polymorphism; maintained a list of birds and behavior-based actions.
+- Practiced clean, modular Java OOP design with real-world scenarios.
+
+🔗**Code Link:**
+👉 [DSA Scenario Based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day3)
+👉 [OOPs Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day10)
+
+---

@@ -362,3 +362,20 @@ BridgeLabz-Training/
 👉 [Scenario Based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day1)
 
 ---
+
+### 📅 Day 23 – DSA and OOPs Scenario Based problems
+**(Date: 12-Jan-2026)**
+
+- Implemented CallCenter – Customer Queue Manager using Queue, PriorityQueue, and HashMap to handle normal and VIP calls with customer call tracking
+- Built TrainCompanion – Compartment Navigation System using a Doubly Linked List for forward/backward traversal and dynamic compartment management
+- Developed TextEditor – Undo/Redo Functionality using two Stacks to manage insert/delete actions with proper undo–redo support
+- Simulated TrafficManager – Roundabout Vehicle Flow using Circular Linked List + Queue to manage vehicle movement and waiting queues
+- HomeNest – Managed smart devices (Light, Camera, Thermostat, Lock) with inheritance, interfaces, encapsulation, and polymorphism.
+- BudgetWise – Tracked income/expenses and budgets using inheritance and polymorphic reports.
+- GameBox – Mobile game platform with genre-based behavior, secure user data, and seasonal offers.
+
+🔗**Code Link:**
+👉 [DSA Scenario Based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day2)
+👉 [OOPs Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day9)
+
+---

@@ -396,6 +396,8 @@ BridgeLabz-Training/
 
 ---
 
+# Week 4: Java Collections
+
 ### 📅 Day 25 – Java Generics & DSA Sorting Scenarios
 **(Date: 15-Jan-2026)**
 
@@ -407,5 +409,21 @@ BridgeLabz-Training/
 🔗**Code Link:**
 👉 [Generic Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/generics)
 👉 [DSA Scenario Based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day4)
+
+---
+
+### 📅 Day 26 – Java Collections & DSA Sorting Scenarios
+**(Date: 16-Jan-2026)**
+
+- Practiced List, Set, Queue, and Map interfaces with real-world problems.
+- Implemented list operations, set calculations, queue/stack simulations, and map-based analytics.
+- Built Insurance Policy Management and Voting System using HashMap, LinkedHashMap, TreeMap, and Sets.
+- `RoboWarehouse` (Insertion Sort) – Dynamically inserted package weights while maintaining ascending order; optimized for low memory and streaming data.
+- `CinemaHouse` (Bubble Sort) – Sorted small sets of movie showtimes using simple, easy-to-maintain logic.
+- `CropMonitor` (Quick Sort) – Efficiently sorted large, unordered sensor data by timestamp using fast partition-based sorting.
+- Practiced choosing optimal sorting algorithms based on real-world constraints.
+
+🔗**Code Link:**
+👉 [Scenario Based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day5)
 
 ---

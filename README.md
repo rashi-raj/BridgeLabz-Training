@@ -395,3 +395,17 @@ BridgeLabz-Training/
 👉 [OOPs Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day10)
 
 ---
+
+### 📅 Day 25 – Java Generics & DSA Sorting Scenarios
+**(Date: 15-Jan-2026)**
+
+- Covered Java Generics fundamentals: type safety, reusability, bounded types, and wildcards.
+- Implemented real-world generic systems: Smart Warehouse, Online Marketplace, Course Management, Meal Planner, AI Resume Screening.
+- Solved DSA sorting scenarios using Bubble, Insertion, Merge, and Quick Sort for hospital queues, shelves, sales reports, ticket pricing, and exam ranking.
+- Focused on selecting the right abstraction and algorithm based on real-world constraints.
+
+🔗**Code Link:**
+👉 [Generic Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/generics)
+👉 [DSA Scenario Based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day4)
+
+---

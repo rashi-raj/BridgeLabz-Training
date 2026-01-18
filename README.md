@@ -134,5 +134,16 @@
 
 ---
 
+### 📅 Day 10 – Scenario Based problems
+**(Date: 16-Jan-2026)**
 
+- `RoboWarehouse` (Insertion Sort) – Dynamically inserted package weights while maintaining ascending order; optimized for low memory and streaming data.
+- `CinemaHouse` (Bubble Sort) – Sorted small sets of movie showtimes using simple, easy-to-maintain logic.
+- `CropMonitor` (Quick Sort) – Efficiently sorted large, unordered sensor data by timestamp using fast partition-based sorting.
+- Practiced choosing optimal sorting algorithms based on real-world constraints.
+
+🔗**Code Link:**
+👉 [Scenario Based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day5)
+
+---
 

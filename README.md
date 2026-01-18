@@ -147,3 +147,16 @@
 
 ---
 
+### 📅 Day 11 – Scenario Based problems
+**(Date: 17-Jan-2026)**
+
+- `ArtExpo` (Insertion Sort) – Maintained artist registrations sorted by time with real-time insertions.
+- `FleetManager` (Merge Sort) – Combined sorted vehicle maintenance lists from multiple depots efficiently.
+- `IceCreamRush` (Bubble Sort) – Sorted ice cream flavors by weekly popularity for a small dataset.
+- `SmartLibrary` (Insertion Sort) – Automatically kept borrowed books alphabetically sorted during dynamic insertions.
+- Practiced selecting Bubble, Insertion, Merge, and Quick Sort based on data size, order, and real-world constraints.
+
+🔗**Code Link:**
+👉 [Scenario Based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day6)
+
+---

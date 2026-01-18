@@ -116,3 +116,23 @@
 
 🔗**Code Link:**
 👉 [Scenario Based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day3)
+
+---
+
+### 📅 Day 9 – Scenario Based problems
+**(Date: 15-Jan-2026)**
+
+- `HospitalQueue` (Bubble Sort) – Sorted ER patients by criticality using in-place Bubble Sort for small datasets.
+- `SmartShelf` (Insertion Sort) – Maintained an alphabetically sorted book list with real-time insertions.
+- `ZipZipMart` (Merge Sort) – Efficiently sorted large-scale sales records while preserving stability.
+- `EventManager` (Quick Sort) – Optimized ticket price sorting for fast retrieval from massive, unsorted data.
+- `ExamCell` (Merge Sort) – Generated state-level student ranks by merging and sorting multi-center scores.
+- Applied the right sorting algorithm based on data size, structure, and performance needs.
+
+🔗**Code Link:**
+👉 [Scenario Based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day4)
+
+---
+
+
+

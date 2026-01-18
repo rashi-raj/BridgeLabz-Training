@@ -14,3 +14,13 @@
 👉 [Generic Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/generics)
 
 ---
+
+### 📅 Day 2 – Java Collections
+**(Date: 16-Jan-2026)**
+
+- Practiced List, Set, Queue, and Map interfaces with real-world problems.
+- Implemented list operations, set calculations, queue/stack simulations, and map-based analytics.
+- Built Insurance Policy Management and Voting System using HashMap, LinkedHashMap, TreeMap, and Sets.
+- Focused on data handling, ordering, and performance comparison.
+
+---

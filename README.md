@@ -207,3 +207,15 @@
 👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day10)
 
 ---
+
+### 📅 Day 16 – Scenario Based Problems
+**(Date: 17-Jan-2026)**
+
+- `GeoMeasure Solutions` – Compared line segments using encapsulation, constructors, and methods to calculate and evaluate line lengths.
+- `Bag-n-Ball Organizer` – Modeled real-world composition with bags and balls, enforcing capacity rules and encapsulated data handling.
+- Practiced core OOP fundamentals: classes, objects, constructors, encapsulation, method design, and object relationships.
+
+🔗 **Code Link:**
+👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day11)
+
+---

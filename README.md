@@ -219,3 +219,15 @@
 👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day11)
 
 ---
+
+### 📅 Day 17 – Scenario Based Problems
+**(Date: 19-Jan-2026)**
+
+- Built an `Address Book application` to add, edit, delete, search, and display contacts.
+- Used OOP principles: classes, constructors, encapsulation, access modifiers, and collections (ArrayList).
+- Implemented duplicate validation, location-based search, and alphabetical sorting of contacts.
+
+🔗 **Code Link:**
+👉 [Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day12)
+
+---

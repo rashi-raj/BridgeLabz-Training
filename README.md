@@ -116,3 +116,47 @@
 
 🔗**Code Link:**
 👉 [Scenario Based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day3)
+
+---
+
+### 📅 Day 9 – Scenario Based problems
+**(Date: 15-Jan-2026)**
+
+- `HospitalQueue` (Bubble Sort) – Sorted ER patients by criticality using in-place Bubble Sort for small datasets.
+- `SmartShelf` (Insertion Sort) – Maintained an alphabetically sorted book list with real-time insertions.
+- `ZipZipMart` (Merge Sort) – Efficiently sorted large-scale sales records while preserving stability.
+- `EventManager` (Quick Sort) – Optimized ticket price sorting for fast retrieval from massive, unsorted data.
+- `ExamCell` (Merge Sort) – Generated state-level student ranks by merging and sorting multi-center scores.
+- Applied the right sorting algorithm based on data size, structure, and performance needs.
+
+🔗**Code Link:**
+👉 [Scenario Based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day4)
+
+---
+
+### 📅 Day 10 – Scenario Based problems
+**(Date: 16-Jan-2026)**
+
+- `RoboWarehouse` (Insertion Sort) – Dynamically inserted package weights while maintaining ascending order; optimized for low memory and streaming data.
+- `CinemaHouse` (Bubble Sort) – Sorted small sets of movie showtimes using simple, easy-to-maintain logic.
+- `CropMonitor` (Quick Sort) – Efficiently sorted large, unordered sensor data by timestamp using fast partition-based sorting.
+- Practiced choosing optimal sorting algorithms based on real-world constraints.
+
+🔗**Code Link:**
+👉 [Scenario Based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day5)
+
+---
+
+### 📅 Day 11 – Scenario Based problems
+**(Date: 17-Jan-2026)**
+
+- `ArtExpo` (Insertion Sort) – Maintained artist registrations sorted by time with real-time insertions.
+- `FleetManager` (Merge Sort) – Combined sorted vehicle maintenance lists from multiple depots efficiently.
+- `IceCreamRush` (Bubble Sort) – Sorted ice cream flavors by weekly popularity for a small dataset.
+- `SmartLibrary` (Insertion Sort) – Automatically kept borrowed books alphabetically sorted during dynamic insertions.
+- Practiced selecting Bubble, Insertion, Merge, and Quick Sort based on data size, order, and real-world constraints.
+
+🔗**Code Link:**
+👉 [Scenario Based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day6)
+
+---

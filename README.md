@@ -173,3 +173,16 @@
 👉 [Scenario Based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day7)
 
 ---
+
+### 📅 Day 13 – Scenario Based problems
+**(Date: 20-Jan-2026)**
+
+- `MovieTime` (Insertion Sort) – Inserted new showtimes in real time while maintaining sorted order.
+- `FoodFest` (Merge Sort) – Combined zone-wise sorted stall footfall data into a stable master list.
+- `GamerZone` (Quick Sort) – Ranked large, dynamic player scores efficiently for live leaderboards.
+- Selected sorting techniques based on data flow, size, and performance needs.
+  
+🔗**Code Link:**
+👉 [Scenario Based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day8)
+
+---

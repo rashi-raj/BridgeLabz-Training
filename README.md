@@ -160,3 +160,16 @@
 👉 [Scenario Based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day6)
 
 ---
+
+### 📅 Day 12 – Scenario Based problems
+**(Date: 19-Jan-2026)**
+
+- `EduResults` (Merge Sort) – Merged district-wise sorted student scores to generate a stable state-level rank list.
+- `FlashDealz` (Quick Sort) – Efficiently sorted large, unsorted product discounts for instant flash-sale results.
+- `FitnessTracker` (Bubble Sort) – Ranked daily step counts for small groups with frequent real-time updates.
+- Applied appropriate sorting algorithms based on data size, stability, and performance needs.
+
+🔗**Code Link:**
+👉 [Scenario Based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day7)
+
+---

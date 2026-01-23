@@ -425,5 +425,25 @@ BridgeLabz-Training/
 
 🔗**Code Link:**
 👉 [Scenario Based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day5)
+👉 [Collection problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/collections)
+
+---
+
+### 📅 Day 27 – DSA Sorting Scenarios and OOPs Scenario Based
+**(Date: 17-Jan-2026)**
+
+- OOP Scenarios:
+  - GeoMeasure Solutions – Compared line segments using encapsulation, constructors, and methods.
+  - Bag-n-Ball Organizer – Managed bags and balls with capacity checks, composition, and encapsulated data.
+- DSA Sorting Scenarios:
+  - ArtExpo – Sorted artist registrations by time (Insertion Sort).
+  - FleetManager – Merged vehicle maintenance schedules from depots (Merge Sort).
+  - IceCreamRush – Ranked flavors by popularity (Bubble Sort).
+  - SmartLibrary – Auto-sorted borrowed books alphabetically (Insertion Sort).
+- Focused on real-world problem solving, efficient data handling, and application of OOP & sorting concepts.
+
+🔗**Code Link:**
+👉 [DSA Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day6)
+👉 [OOPs Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day11)
 
 ---

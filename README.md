@@ -186,3 +186,20 @@
 👉 [Scenario Based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day8)
 
 ---
+
+### 📅 Day 14 – Scenario Based problems
+**(Date: 21-Jan-2026)**
+
+- Implemented Insertion Sort & Merge Sort for real-time and time-sensitive data:
+  - `TailorShop` – Sorted orders by delivery deadlines with incremental insertion.
+  - `MedWarehouse` – Merged branch-wise sorted medicine expiry data to prevent wastage.
+-Built Binary Search Tree (BST) solutions for efficient data management:
+  - `University Records` – Inserted, searched, deleted, and displayed student roll numbers.
+  - `E-Commerce Inventory` – Managed products using SKU-based BST operations.
+  - `Music App` – Organized and searched tracks using track IDs with in-order traversal.
+- Focused on efficient searching, sorted data retrieval, and real-world use cases.
+  
+🔗**Code Link:**
+👉 [Scenario Based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day9)
+
+---

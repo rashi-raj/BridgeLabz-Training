@@ -447,3 +447,18 @@ BridgeLabz-Training/
 👉 [OOPs Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day11)
 
 ---
+
+### 📅 Day 28 – DSA Scenarios, I/O Streams & OOPs Scenarios 
+**(Date: 19-Jan-2026)**
+
+- Solved DSA sorting scenarios using Merge Sort, Quick Sort, and Bubble Sort for rank generation, flash-sale product sorting, and fitness leaderboards.
+- Practiced Java I/O Streams for reading and writing data.
+- Built an Address Book System applying core OOP principles: classes, constructors, encapsulation, collections, duplicate validation, search, and alphabetical sorting.
+- Focused on real-world problem solving and efficient data handling.
+
+🔗**Code Link:**
+👉 [DSA Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day7)
+👉 [OOPs Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based/OopsProblems/src/com/day12)
+👉 [Streams Practice](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/streams)
+
+---

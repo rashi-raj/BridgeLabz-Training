@@ -1,0 +1,23 @@
+package com.streams;
+
+/*
+9. Read a Large File Line by Line
+Print only lines containing the word "error".
+*/
+import java.io.*;
+
+public class ReadLargeFile {
+    public static void main(String[] args) {
+
+        try (BufferedReader br = new BufferedReader(new FileReader("large.txt"))) {
+            String line;
+            while ((line = br.readLine()) != null) {
+                if (line.toLowerCase().contains("error")) {
+                    System.out.println(line);
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}

@@ -462,3 +462,19 @@ BridgeLabz-Training/
 👉 [Streams Practice](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/streams)
 
 ---
+
+### 📅 Day 29 – DSA Sorting Scenarios & Exception Handling
+**(Date: 20-Jan-2026)**
+
+- DSA Scenario-Based Sorting:
+  - MovieTime (Insertion Sort) – Inserted new showtimes in real time for theaters.
+  - FoodFest (Merge Sort) – Merged daily stall footfall logs into a stable master list.
+  - GamerZone (Quick Sort) – Ranked large, dynamic player scores efficiently for leaderboards.
+- Java Exception Handling: Implemented robust try-catch blocks, handled checked and unchecked exceptions, and ensured safe program execution.
+- Focused on real-time data management, performance-driven sorting, and error-resilient coding.
+
+🔗**Code Link:**
+👉 [DSA Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day8)
+👉 [Streams Practice](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/exceptions)
+
+---

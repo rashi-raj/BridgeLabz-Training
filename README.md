@@ -203,3 +203,17 @@
 👉 [Scenario Based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day9)
 
 ---
+
+### 📅 Day 15 – Scenario Based problems
+**(Date: 22-Jan-2026)**
+
+- Implemented AVL Tree scenarios for balanced and efficient data handling:
+  - `Gaming Leaderboard` – Real-time player insert/update, top rankings, and removals.
+  - `Online Ticket Booking` – Managed events sorted by time with insert, delete, and ordered display.
+  - `Hospital Queue` – Handled patient registration, deletion, and arrival-time ordering.
+- Focused on self-balancing trees, fast lookups, and advanced Java features.
+
+🔗**Code Link:**
+👉 [Scenario Based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day10)
+
+---

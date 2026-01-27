@@ -515,3 +515,22 @@ BridgeLabz-Training/
 👉 [Reflection Practice](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/reflection)
 
 ---
+
+# Week 5: IO Programming
+
+### 📅 Day 32 – Collections scenario based & CSV Data Handling
+**(Date: 23-Jan-2026)**
+
+- Worked on real-world scenarios using Java Collections, Generics, I/O Streams, Regex, and CSV files:
+  - Processed text/CSV files using I/O streams
+  - Extracted and validated data using Regex
+  - Used List, Set, Map, and PriorityQueue for data storage and sorting
+  - Implemented serialization and exception handling
+  - Built CSV-based result processing and ranking logic
+- Focused on efficient data handling, validation, and real-world collection usage.
+
+🔗**Code Link:**
+👉 [Collections Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based/CollectionsScenarioBased/src/day1)
+👉 [CSV Data Handling](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-iostream-practice/java-iostream-practice/gcr-codebase/JavaIOstreamPractice/src/main/java/com/csv)
+
+---

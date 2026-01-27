@@ -81,3 +81,21 @@
 👉 [Reflection Practice Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/reflection)
 
 ---
+
+### 📅 Day 7 – Collections Scenario-based Problems Practice
+**(Date: 23-Jan-2026)**
+
+- Practised file handling with I/O Streams across real-world scenarios like
+   - ResumeAnalyzer – Smart Resume Filtering System,
+   - TravelLog – Trip Organiser for Backpackers,
+   - FeedbackGuru – Smart Survey Analyser,
+   - CodeRepoCleaner – Java File Scanner and Organiser, and
+   - ExamScanner – Digital Answer Sheet Validator.
+- Learned to apply Regex for extracting emails, ratings, keywords, and validating formats in text, CSV, and source files.
+- Used Java Collections (List, Set, Map, PriorityQueue) to organise, group, sort, and summarise large datasets.
+- Applied Generics to design flexible, reusable systems for diverse data types and domains.
+
+🔗**Code Link:**
+👉 [Scenario-Based Practice Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based/CollectionsScenarioBased/src/day1)
+
+---

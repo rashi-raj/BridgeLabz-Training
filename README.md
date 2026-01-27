@@ -498,3 +498,20 @@ BridgeLabz-Training/
 👉 [Jnuit Practice](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/jnuit)
 
 ---
+
+### 📅 Day 31 – DSA Tree scenario, Annotation & Reflection practice
+**(Date: 22-Jan-2026)**
+
+- Implemented AVL Tree scenarios for balanced and efficient data handling:
+  - Gaming Leaderboard – Real-time player insert/update, top rankings, and removals.
+  - Online Ticket Booking – Managed events sorted by time with insert, delete, and ordered display.
+  - Hospital Queue – Handled patient registration, deletion, and arrival-time ordering.
+- Practiced Java Annotations & Reflection for runtime metadata access, dynamic method invocation, and class inspection.
+- Focused on self-balancing trees, fast lookups, and advanced Java features.
+
+🔗**Code Link:**
+👉 [DSA Scenario Based](https://github.com/rashi-raj/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based/DsaScenarioBased/src/com/day10)
+👉 [Annotation Practice](http://github.com/rashi-raj/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/annotation)
+👉 [Reflection Practice](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/reflection)
+
+---

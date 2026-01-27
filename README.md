@@ -18,9 +18,25 @@
 ### 📅 Day 2 – Java Collections
 **(Date: 16-Jan-2026)**
 
-- Practiced List, Set, Queue, and Map interfaces with real-world problems.
-- Implemented list operations, set calculations, queue/stack simulations, and map-based analytics.
-- Built Insurance Policy Management and Voting System using HashMap, LinkedHashMap, TreeMap, and Sets.
-- Focused on data handling, ordering, and performance comparison.
+- Explored the `Java Collections Framework` to understand its purpose, structure, and overall hierarchy.
+- Worked with core interfaces such as `List`, `Set`, `Queue`, `Deque`, and `Map` and their common implementations.
+- Compared different collection implementations based on `performance`, `ordering`, `duplication`, and `thread-safety`.
+- Applied `real-world use cases and best practices` to select the most efficient collection for specific problem scenarios.
+
+🔗**Code Link:**
+👉 [Collections Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/collections)
+
+---
+
+### 📅 Day 3 – Java Streams 
+**(Date: 19-Jan-2026)**
+
+- Implemented `Java I/O Streams` to handle file-based and in-memory data operations efficiently.
+- Worked with `File Streams`, `Object Streams`, `ByteArray Streams`, `Buffered Streams`, and `Reader/Writer classes`.
+- Understood the differences between `byte` and `character streams` for proper data handling.
+- Applied key considerations and best practices for performance, buffering, and resource management.
+
+🔗**Code Link:**
+👉 [Java Streams Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/streams)
 
 ---

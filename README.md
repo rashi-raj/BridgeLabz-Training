@@ -67,3 +67,17 @@
 👉 [JUnit Practice Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/jnuit)
 
 ---
+
+### 📅 Day 6 – Annotations and Reflection in Java
+**(Date: 22-Jan-2026)**
+
+- Learned the basics of annotations in Java and understood their purpose in adding `metadata` to code.
+- Practised using common `built-in annotations` and created `custom and advanced annotations` for real-world scenarios.
+- Explored real-world use cases of annotations and how they are handled using annotation processing tools.
+- Gained understanding of `Java Reflection`, practised `accessing classes`, `methods`, and `fields` at runtime, and used reflection with annotations.
+
+🔗**Code Link:**
+👉 [Annotations Practice Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/annotation)
+👉 [Reflection Practice Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-codebase/JavaCollectionsPractice/src/com/reflection)
+
+---

@@ -557,7 +557,7 @@ BridgeLabz-Training/
 
 ---
 
-# Week 5: Java 8 & its features
+# Week 6: Java 8 & its features
 
 ### 📅 Day 34 –  Functional Interface and Lambda expressions
 **(Date: 27-Jan-2026)**
@@ -619,6 +619,8 @@ BridgeLabz-Training/
 [Scenario Based Problems](https://github.com/rashi-raj/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/scenario-based/Java8ScenarioPractice/src/com)
 
 ---
+
+# Week 7: Solution Designing
 
 ### 📅 Day 37 – Java 8 Logical Questions and Design Principles & GoF Design Patterns
 **(Date: 31-Jan-2026)**

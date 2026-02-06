@@ -620,7 +620,7 @@ BridgeLabz-Training/
 
 ---
 
-### 📅 Day 37 – Java 8 Logical Questions Practice
+### 📅 Day 37 – Java 8 Logical Questions and Design Principles & GoF Design Patterns
 **(Date: 31-Jan-2026)**
 
 - Java 8 `List → Map`, `Map → List`, `List ↔ Set`, and `Array ↔ Collection` conversions using Streams.
@@ -628,8 +628,25 @@ BridgeLabz-Training/
 - String-based logical problems such as `frequency count`, `filtering`, and `character processing` using streams.
 - Stream logical questions involving `filtering`, `mapping`, `sorting`, `grouping`, `partitioning`, and `reduction`.
 - Lambda Expressions, Functional Interfaces, Optional class, and Streams API applied in interview-oriented scenarios.
-
+- This repository reflects my learning and practice of core software design principles and `GoF design patterns`, essential for building clean, maintainable, and scalable applications.
+- I studied and applied `SOLID principles` (SRP, OCP, LSP, ISP, DIP) along with key design guidelines such as `DRY`, `KISS`, and `YAGNI` to improve code quality and design decisions.
+- The repository also covers GoF Design Patterns, their categories (`Creational`, `Structural`, `Behavioural`), and commonly used patterns like `Singleton`, `Factory`, `Observer`, and `Builder`.
+ 
 **🔗Code Link:**
 👉[Logical Questions](https://github.com/rashi-raj/BridgeLabz-Training/tree/java8-programming-practice/java8-programming-practice/logical-questions/StreamsLogicalPractice/src/com)
+👉[Questions Practice](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-designpattern-practice/java-designpattern-practice/gcr-codebase/DesignPatternPractice/src/com/librarymanagementsystem)
+
+---
+
+### 📅 Day 38 – Java Multithreading
+**(Date: 02-Feb-2026)**
+
+ - Practice Java Multithreading concepts and how to build concurrent and high-performance applications.
+ - I covered core topics such as `thread creation`, `lifecycle`, `synchronisation`, `locks`, `inter-thread communication`, `Executor framework`, `Callable`, and `ThreadLocal`.
+ - The focus was on understanding real-world scenarios, `thread safety`, `race conditions`, and `performance considerations`.
+ - Practical examples and scenarios were practised to strengthen the concept.
+   
+**🔗Code Link:**
+👉[Multithreading Questions](https://github.com/rashi-raj/BridgeLabz-Training/tree/java-designpattern-practice/java-designpattern-practice/gcr-codebase/MultithreadingPractice/src)
 
 ---

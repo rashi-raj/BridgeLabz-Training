@@ -680,3 +680,19 @@ BridgeLabz-Training/
 👉 [MySql Problems]()
 
 ---
+
+### 📅 Day 41 – Database Scenario-based Problems Practice
+**(Date: 07-Feb-2026)**
+
+- Practised multiple scenario-based questions to strengthen database concepts
+- `Patient Management` – Practised registering, updating, searching patients, and viewing visit history.
+- `Doctor Management` – Learned to add, assign specialities, view, and deactivate doctor profiles.
+- `Appointment Scheduling` – Practised booking, checking availability, cancelling/rescheduling, and viewing schedules.
+- `Visit Management & Medical Records` – Learned to record visits, add prescriptions, and view medical history.
+- `Billing & Payments` – Practised generating bills, recording payments, viewing outstanding bills, and generating revenue reports.
+- `System Administration` – Learned speciality management, database backup, and viewing audit logs.
+
+🔗**Code Link:** 
+👉 [Scenario Problems]()
+
+---

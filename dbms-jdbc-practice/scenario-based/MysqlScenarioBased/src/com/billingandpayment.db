@@ -1,0 +1,99 @@
+UC-5.1: Generate Bill for Visit
+Actor: Receptionist
+Flow: Calculate total from doctor's consultation_fee plus any additional charges. Insert into bills table with foreign key to visit_id. Use SUM aggregate function for itemized billing.
+CREATE TABLE bills(
+    bill_id INT AUTO_INCREMENT PRIMARY KEY,
+    visit_id INT NOT NULL,
+    consultation_fee DECIMAL(10,2) NOT NULL,
+    additional_charges DECIMAL(10,2) DEFAULT 0,
+    total_amount DECIMAL(10,2),
+    payment_status VARCHAR(20) DEFAULT 'UNPAID',
+    bill_date DATE DEFAULT CURRENT_DATE,
+    FOREIGN KEY (visit_id) REFERENCES visits(visit_id)
+);
+
+INSERT INTO bills(visit_id, consultation_fee, additional_charges, total_amount)
+SELECT 
+    v.visit_id,
+    d.consultation_fee,
+    200.00 AS additional_charges,
+    SUM(d.consultation_fee + 200.00) AS total_amount
+FROM visits v
+JOIN appointments a ON v.appointment_id = a.appointment_id
+JOIN doctor d ON a.doctor_id = d.doctor_id
+WHERE v.visit_id = 1
+GROUP BY v.visit_id, d.consultation_fee;
+
+SELECT * FROM bills;
+
+
+
+UC-5.2: Record Payment
+Actor: Receptionist
+Flow: Update bills table setting payment_status='PAID', payment_date, payment_mode. Use transaction to insert record in payment_transactions table simultaneously.
+CREATE TABLE payment_transactions(
+    transaction_id INT AUTO_INCREMENT PRIMARY KEY,
+    bill_id INT NOT NULL,
+    payment_date DATE,
+    payment_mode VARCHAR(50),
+    amount_paid DECIMAL(10,2),
+    FOREIGN KEY (bill_id) REFERENCES bills(bill_id)
+);
+
+START TRANSACTION;
+
+UPDATE bills
+SET payment_status = 'PAID'
+WHERE bill_id = 1;
+
+INSERT INTO payment_transactions(bill_id, payment_date, payment_mode, amount_paid)
+SELECT bill_id, CURRENT_DATE, 'CASH', total_amount
+FROM bills
+WHERE bill_id = 1;
+
+COMMIT;
+
+SELECT * FROM bills;
+SELECT * FROM payment_transactions;
+
+
+
+UC-5.3: View Outstanding Bills
+Actor: Receptionist/Administrator
+Flow: SELECT from bills table WHERE payment_status='UNPAID' with JOIN to patients. Use aggregate functions (SUM, COUNT) grouped by patient for summary.
+SELECT 
+    p.patient_id,
+    p.patient_name,
+    COUNT(b.bill_id) AS total_unpaid_bills,
+    SUM(b.total_amount) AS total_due_amount
+FROM bills b
+JOIN visits v ON b.visit_id = v.visit_id
+JOIN appointments a ON v.appointment_id = a.appointment_id
+JOIN patient p ON a.patient_id = p.patient_id
+WHERE b.payment_status = 'UNPAID'
+GROUP BY p.patient_id, p.patient_name;
+
+
+
+5.4: Generate Revenue Report
+Actor: Administrator
+Flow: Execute aggregate query with SUM on bills table grouped by date/doctor/specialty. Use BETWEEN operator for date range filtering and HAVING clause for thresholds.
+SELECT 
+    d.doctor_name,
+    SUM(b.total_amount) AS total_revenue
+FROM bills b
+JOIN visits v ON b.visit_id = v.visit_id
+JOIN appointments a ON v.appointment_id = a.appointment_id
+JOIN doctor d ON a.doctor_id = d.doctor_id
+WHERE b.bill_date BETWEEN '2025-01-01' AND '2025-12-31'
+AND b.payment_status = 'PAID'
+GROUP BY d.doctor_name
+HAVING SUM(b.total_amount) > 1000;
+
+SELECT 
+    b.bill_date,
+    SUM(b.total_amount) AS daily_revenue
+FROM bills b
+WHERE b.payment_status = 'PAID'
+GROUP BY b.bill_date
+ORDER BY b.bill_date;

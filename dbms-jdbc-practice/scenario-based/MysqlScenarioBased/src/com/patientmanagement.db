@@ -1,0 +1,111 @@
+UC-1.1: Register New Patient
+Actor: Receptionist
+Flow: Enter patient details (name, DOB, contact, address, blood group). System validates uniqueness by phone/email, generates patient ID, inserts record into patients table with auto-increment primary key.
+
+mysql> create database scenario_based;
+Query OK, 1 row affected (0.05 sec)
+
+mysql> create table Patient(patient_id int AUTO_INCREMENT, name varchar(20) NOT NULL, DOB date NOT NULL, email varchar(30) NOT NULL, phone varchar(10) NOT NULL, address varchar(150), blood_group varchar(2), PRIMARY KEY(patient_id), UNIQUE(email), UNIQUE(phone));
+Query OK, 0 rows affected (0.08 sec)
+
+mysql> insert into Patient(name, DOB, email, phone, address, blood_group) 
+	   values('Will', '1995-05-14', 'will@gmail.com', '9955667788', 'hawkins', 'A+'), 
+	         ('Mike', '2000-09-01', 'mike@yahoo.com', '2289786721', 'hawkins', 'B-'), 
+	         ('Jonathan', '1991-05-25', 'jonathan@gmail.com', '9985167788', 'hawkins', 'A+');
+Query OK, 3 rows affected (0.02 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+mysql> select * from patient;
++------------+----------+------------+--------------------+------------+---------+-------------+
+| patient_id | name     | DOB        | email              | phone      | address | blood_group |
++------------+----------+------------+--------------------+------------+---------+-------------+
+|          1 | Will     | 1995-05-14 | will@gmail.com     | 9955667788 | hawkins | A+          |
+|          2 | Mike     | 2000-09-01 | mike@yahoo.com     | 2289786721 | hawkins | B-          |
+|          3 | Jonathan | 1991-05-25 | jonathan@gmail.com | 9985167788 | hawkins | A+          |
++------------+----------+------------+--------------------+------------+---------+-------------+
+3 rows in set (0.00 sec)
+
+
+UC-1.2: Update Patient Information
+Actor: Receptionist
+Flow: Search patient by ID/phone, display current details, update fields, execute SQL UPDATE with WHERE clause on patient ID.
+
+mysql> select * from Patient where phone=9955667788;
++------------+------+------------+----------------+------------+---------+-------------+
+| patient_id | name | DOB        | email          | phone      | address | blood_group |
++------------+------+------------+----------------+------------+---------+-------------+
+|          1 | Will | 1995-05-14 | will@gmail.com | 9955667788 | hawkins | A+          |
++------------+------+------------+----------------+------------+---------+-------------+
+1 row in set (0.05 sec)
+
+mysql> update Patient set phone=9191919191 where patient_id = 1;
+Query OK, 1 row affected (0.01 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> select * from Patient;
++------------+----------+------------+--------------------+------------+---------+-------------+
+| patient_id | name     | DOB        | email              | phone      | address | blood_group |
++------------+----------+------------+--------------------+------------+---------+-------------+
+|          1 | Will     | 1995-05-14 | will@gmail.com     | 9191919191 | hawkins | A+          |
+|          2 | Mike     | 2000-09-01 | mike@yahoo.com     | 2289786721 | hawkins | B-          |
+|          3 | Jonathan | 1991-05-25 | jonathan@gmail.com | 9985167788 | hawkins | A+          |
++------------+----------+------------+--------------------+------------+---------+-------------+
+3 rows in set (0.00 sec)
+
+
+UC-1.3: Search Patient Records
+Actor: Receptionist/Doctor
+Flow: Query patients table using LIKE operator for name search or exact match for ID/phone. Display results using ResultSet iteration.
+
+mysql> Select * from Patient where patient_id=2;
++------------+------+------------+----------------+------------+---------+-------------+
+| patient_id | name | DOB        | email          | phone      | address | blood_group |
++------------+------+------------+----------------+------------+---------+-------------+
+|          2 | Mike | 2000-09-01 | mike@yahoo.com | 2289786721 | hawkins | B-          |
++------------+------+------------+----------------+------------+---------+-------------+
+1 row in set (0.00 sec)
+
+mysql> Select * from Patient where phone=2289786721;
++------------+------+------------+----------------+------------+---------+-------------+
+| patient_id | name | DOB        | email          | phone      | address | blood_group |
++------------+------+------------+----------------+------------+---------+-------------+
+|          2 | Mike | 2000-09-01 | mike@yahoo.com | 2289786721 | hawkins | B-          |
++------------+------+------------+----------------+------------+---------+-------------+
+1 row in set (0.00 sec)
+
+mysql> Select * from Patient where name like 'jon%';
++------------+----------+------------+--------------------+------------+---------+-------------+
+| patient_id | name     | DOB        | email              | phone      | address | blood_group |
++------------+----------+------------+--------------------+------------+---------+-------------+
+|          3 | Jonathan | 1991-05-25 | jonathan@gmail.com | 9985167788 | hawkins | A+          |
++------------+----------+------------+--------------------+------------+---------+-------------+
+1 row in set (0.04 sec)
+
+
+UC-1.4: View Patient Visit History
+Actor: Doctor/Receptionist
+Flow: Execute JOIN query between appointments and visits tables filtered by patient ID. Display chronological list with doctor names and diagnoses.
+
+mysql> create table appointments(appointment_id int auto_increment PRIMARY KEY, patient_id int NOT NULL, doctor_name varchar(20) NOT NULL, appointment_date date NOT NULL);
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> insert into appointments(patient_id, doctor_name, appointment_date) values(1, 'Hopper', '2026-02-09'),(2, 'Kalyani', '2026-02-01');
+Query OK, 2 rows affected (0.01 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+mysql> create table visits(visit_id int auto_increment PRIMARY KEY, appointment_id int not null, diagnosis varchar(100), foreign key(appointment_id) references appointments(appointment_id));
+Query OK, 0 rows affected (0.06 sec)
+
+mysql> insert into visits(appointment_id,diagnosis) values(1,'fever'),(2,'allergy'),(1,'heart checkup');
+Query OK, 3 rows affected (0.01 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+mysql> select a.appointment_date, a.doctor_name, v.diagnosis from appointments a JOIN visits v on a.appointment_id = v.appointment_id where a.patient_id = 1 order by a.appointment_date asc;
++------------------+-------------+---------------+
+| appointment_date | doctor_name | diagnosis     |
++------------------+-------------+---------------+
+| 2026-02-09       | Hopper      | fever         |
+| 2026-02-09       | Hopper      | heart checkup |
++------------------+-------------+---------------+
+2 rows in set (0.00 sec)
+

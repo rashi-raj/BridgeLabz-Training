@@ -1,0 +1,72 @@
+-- ============================================
+-- EXERCISE 1: EMPLOYEE MANAGEMENT SYSTEM (CRUD)
+-- ============================================
+
+mysql> CREATE TABLE staff (
+    staff_id INT,
+    staff_name VARCHAR(25),
+    staff_department VARCHAR(20),
+    staff_salary DECIMAL(10,2)
+);
+Query OK, 0 rows affected (0.14 sec)
+
+mysql> DESC staff;
++------------------+---------------+------+-----+---------+-------+
+| Field            | Type          | Null | Key | Default | Extra |
++------------------+---------------+------+-----+---------+-------+
+| staff_id         | int           | YES  |     | NULL    |       |
+| staff_name       | varchar(25)   | YES  |     | NULL    |       |
+| staff_department | varchar(20)   | YES  |     | NULL    |       |
+| staff_salary     | decimal(10,2) | YES  |     | NULL    |       |
++------------------+---------------+------+-----+---------+-------+
+
+mysql> INSERT INTO staff
+       (staff_id, staff_name, staff_department, staff_salary)
+       VALUES (101, 'Aarav Mehta', 'Finance', 620000);
+Query OK, 1 row affected (0.01 sec)
+
+mysql> INSERT INTO staff
+       (staff_id, staff_name, staff_department, staff_salary)
+       VALUES (102, 'Kavya Sharma', 'HR', 410000);
+Query OK, 1 row affected (0.01 sec)
+
+mysql> SELECT * FROM staff;
++----------+---------------+------------------+--------------+
+| staff_id | staff_name    | staff_department | staff_salary |
++----------+---------------+------------------+--------------+
+|      101 | Aarav Mehta   | Finance          | 620000.00    |
+|      102 | Kavya Sharma  | HR               | 410000.00    |
++----------+---------------+------------------+--------------+
+
+mysql> UPDATE staff
+       SET staff_salary = staff_salary + 10000
+       WHERE staff_id = 102;
+Query OK, 1 row affected
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> SELECT * FROM staff;
++----------+---------------+------------------+--------------+
+| staff_id | staff_name    | staff_department | staff_salary |
++----------+---------------+------------------+--------------+
+|      101 | Aarav Mehta   | Finance          | 620000.00    |
+|      102 | Kavya Sharma  | HR               | 420000.00    |
++----------+---------------+------------------+--------------+
+
+mysql> SELECT * FROM staff
+       WHERE staff_name = 'Aarav Mehta';
++----------+-------------+------------------+--------------+
+| staff_id | staff_name  | staff_department | staff_salary |
++----------+-------------+------------------+--------------+
+|      101 | Aarav Mehta | Finance          | 620000.00    |
++----------+-------------+------------------+--------------+
+
+mysql> DELETE FROM staff WHERE staff_id = 102;
+Query OK, 1 row affected
+
+mysql> SELECT * FROM staff;
++----------+-------------+------------------+--------------+
+| staff_id | staff_name  | staff_department | staff_salary |
++----------+-------------+------------------+--------------+
+|      101 | Aarav Mehta | Finance          | 620000.00    |
++----------+-------------+------------------+--------------+
+

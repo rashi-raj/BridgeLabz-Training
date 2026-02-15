@@ -1,0 +1,99 @@
+mysql> CREATE TABLE customer_account (
+    account_no INT PRIMARY KEY,
+    account_holder VARCHAR(50),
+    current_balance DECIMAL(10,2)
+);
+Query OK, 0 rows affected (0.16 sec)
+
+mysql> DESC customer_account;
++-----------------+---------------+------+-----+---------+-------+
+| Field           | Type          | Null | Key | Default | Extra |
++-----------------+---------------+------+-----+---------+-------+
+| account_no      | int           | NO   | PRI | NULL    |       |
+| account_holder  | varchar(50)   | YES  |     | NULL    |       |
+| current_balance | decimal(10,2) | YES  |     | NULL    |       |
++-----------------+---------------+------+-----+---------+-------+
+
+mysql> CREATE TABLE account_transaction (
+    transaction_id INT AUTO_INCREMENT PRIMARY KEY,
+    sender_account INT,
+    receiver_account INT,
+    transaction_amount DECIMAL(10,2),
+    transaction_type VARCHAR(20),
+    transaction_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+Query OK, 0 rows affected (0.18 sec)
+
+mysql> DESC account_transaction;
++--------------------+---------------+------+-----+-------------------+-------------------+
+| Field              | Type          | Null | Key | Default           | Extra             |
++--------------------+---------------+------+-----+-------------------+-------------------+
+| transaction_id     | int           | NO   | PRI | NULL              | auto_increment    |
+| sender_account     | int           | YES  |     | NULL              |                   |
+| receiver_account   | int           | YES  |     | NULL              |                   |
+| transaction_amount | decimal(10,2) | YES  |     | NULL              |                   |
+| transaction_type   | varchar(20)   | YES  |     | NULL              |                   |
+| transaction_time   | timestamp     | YES  |     | CURRENT_TIMESTAMP | DEFAULT_GENERATED |
++--------------------+---------------+------+-----+-------------------+-------------------+
+
+mysql> INSERT INTO customer_account VALUES
+(201, 'Rohit Malhotra', 60000),
+(202, 'Sneha Iyer', 42000),
+(203, 'Kunal Das', 28000);
+Query OK, 3 rows affected (0.02 sec)
+
+mysql> SELECT * FROM customer_account;
++------------+-----------------+-----------------+
+| account_no | account_holder  | current_balance |
++------------+-----------------+-----------------+
+|        201 | Rohit Malhotra  | 60000.00        |
+|        202 | Sneha Iyer      | 42000.00        |
+|        203 | Kunal Das       | 28000.00        |
++------------+-----------------+-----------------+
+
+-- Check balance before transaction
+mysql> SELECT * FROM customer_account WHERE account_no IN (201, 202);
++------------+-----------------+-----------------+
+| account_no | account_holder  | current_balance |
++------------+-----------------+-----------------+
+|        201 | Rohit Malhotra  | 60000.00        |
+|        202 | Sneha Iyer      | 42000.00        |
++------------+-----------------+-----------------+
+
+-- Deduct amount from sender
+mysql> UPDATE customer_account
+       SET current_balance = current_balance - 8000
+       WHERE account_no = 201 AND current_balance >= 8000;
+Query OK, 1 row affected
+Rows matched: 1  Changed: 1  Warnings: 0
+
+-- Add amount to receiver
+mysql> UPDATE customer_account
+       SET current_balance = current_balance + 8000
+       WHERE account_no = 202;
+Query OK, 1 row affected
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> SELECT * FROM customer_account;
++------------+-----------------+-----------------+
+| account_no | account_holder  | current_balance |
++------------+-----------------+-----------------+
+|        201 | Rohit Malhotra  | 52000.00        |
+|        202 | Sneha Iyer      | 50000.00        |
+|        203 | Kunal Das       | 28000.00        |
++------------+-----------------+-----------------+
+
+-- Record transaction
+mysql> INSERT INTO account_transaction
+(sender_account, receiver_account, transaction_amount, transaction_type)
+VALUES (201, 202, 8000, 'FUND_TRANSFER');
+Query OK, 1 row affected (0.01 sec)
+
+mysql> SELECT * FROM account_transaction;
++----------------+----------------+------------------+--------------------+------------------+---------------------+
+| transaction_id | sender_account | receiver_account | transaction_amount | transaction_type | transaction_time    |
++----------------+----------------+------------------+--------------------+------------------+---------------------+
+|              1 |            201 |              202 | 8000.00            | FUND_TRANSFER    | 2026-02-06 21:10:12 |
++----------------+----------------+------------------+--------------------+------------------+---------------------+
+
+mysql> COMMIT;

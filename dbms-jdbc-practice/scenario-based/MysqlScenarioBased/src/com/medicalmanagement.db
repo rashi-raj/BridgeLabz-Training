@@ -1,0 +1,65 @@
+UC-4.1: Record Patient Visit
+Actor: Doctor
+Flow: After appointment completion, insert visit record into visits table with diagnosis, prescription, notes. Update appointment status to 'COMPLETED' in same transaction.
+CREATE TABLE visits(
+    visit_id INT AUTO_INCREMENT PRIMARY KEY,
+    appointment_id INT NOT NULL,
+    visit_date DATE DEFAULT CURRENT_DATE,
+    diagnosis VARCHAR(150),
+    notes VARCHAR(255),
+    FOREIGN KEY (appointment_id) REFERENCES appointments(appointment_id)
+);
+
+START TRANSACTION;
+
+INSERT INTO visits(appointment_id, diagnosis, notes)
+VALUES (1, 'Viral Fever', 'Rest for 5 days and stay hydrated');
+
+UPDATE appointments
+SET status = 'COMPLETED'
+WHERE appointment_id = 1;
+
+COMMIT;
+
+SELECT * FROM visits;
+SELECT * FROM appointments;
+
+
+
+UC-4.2: View Patient Medical History
+Actor: Doctor
+Flow: Execute JOIN query across visits, prescriptions, and appointments tables. Filter by patient_id and order by visit_date DESC for chronological view.
+CREATE TABLE prescriptions(
+    prescription_id INT AUTO_INCREMENT PRIMARY KEY,
+    visit_id INT NOT NULL,
+    medicine_name VARCHAR(100) NOT NULL,
+    dosage VARCHAR(50),
+    duration VARCHAR(50),
+    FOREIGN KEY (visit_id) REFERENCES visits(visit_id)
+);
+
+SELECT 
+    v.visit_date,
+    v.diagnosis,
+    v.notes,
+    pr.medicine_name,
+    pr.dosage,
+    pr.duration
+FROM visits v
+JOIN appointments a ON v.appointment_id = a.appointment_id
+LEFT JOIN prescriptions pr ON v.visit_id = pr.visit_id
+WHERE a.patient_id = 1
+ORDER BY v.visit_date DESC;
+
+
+
+UC-4.3: Add Prescription Details
+Actor: Doctor
+Flow: Insert multiple records into prescriptions table (one-to-many with visits) containing medicine name, dosage, duration. Use batch INSERT for efficiency.
+INSERT INTO prescriptions(visit_id, medicine_name, dosage, duration)
+VALUES
+(1, 'Paracetamol', '500mg', '5 days'),
+(1, 'Cough Syrup', '10ml twice daily', '7 days'),
+(1, 'Vitamin C', '1 tablet daily', '10 days');
+
+SELECT * FROM prescriptions;

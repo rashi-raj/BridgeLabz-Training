@@ -1,0 +1,116 @@
+6. System Administration
+UC-6.1: Manage Specialty Lookup
+Actor: Administrator
+Flow: CRUD operations on specialties reference table. Check foreign key constraints before DELETE using COUNT subquery.
+CREATE TABLE specialties(
+    specialty_id INT AUTO_INCREMENT PRIMARY KEY,
+    specialty_name VARCHAR(100) UNIQUE NOT NULL,
+    description VARCHAR(255)
+);
+
+INSERT INTO specialties(specialty_name, description)
+VALUES ('Cardiology', 'Heart related treatments'),
+       ('Neurology', 'Brain and nervous system'),
+       ('Orthopedics', 'Bone and joint treatments');
+
+SELECT * FROM specialties;
+
+UPDATE specialties
+SET description = 'Heart and blood vessel treatments'
+WHERE specialty_name = 'Cardiology';
+
+SELECT * FROM specialties;
+
+SELECT COUNT(*) AS doctor_count
+FROM doctor
+WHERE specialty_id = 1;
+
+DELETE FROM specialties
+WHERE specialty_id = 1
+AND (SELECT COUNT(*) FROM doctor WHERE specialty_id = 1) = 0;
+
+SELECT * FROM specialties;
+
+
+
+
+
+UC-6.2: Database Backup Trigger
+Actor: System (Scheduled)
+Flow: Execute JDBC batch operations to export critical tables. Use DatabaseMetaData to retrieve schema information for backup validation.
+import java.sql.*;
+import java.io.FileWriter;
+
+public class DatabaseBackup {
+
+    public static void main(String[] args) throws Exception {
+
+        Connection con = DriverManager.getConnection(
+            "jdbc:mysql://localhost:3306/hospital_db", "root", "password");
+
+        DatabaseMetaData meta = con.getMetaData();
+        ResultSet tables = meta.getTables(null, null, "%", new String[]{"TABLE"});
+
+        while(tables.next()) {
+            String tableName = tables.getString("TABLE_NAME");
+            System.out.println("Backing up table: " + tableName);
+
+            Statement stmt = con.createStatement();
+            ResultSet rs = stmt.executeQuery("SELECT * FROM " + tableName);
+
+            FileWriter writer = new FileWriter(tableName + "_backup.txt");
+
+            ResultSetMetaData rsMeta = rs.getMetaData();
+            int columnCount = rsMeta.getColumnCount();
+
+            while(rs.next()) {
+                for(int i = 1; i <= columnCount; i++) {
+                    writer.write(rs.getString(i) + " | ");
+                }
+                writer.write("\n");
+            }
+            writer.close();
+        }
+
+        con.close();
+        System.out.println("Backup Completed Successfully");
+    }
+}
+
+
+
+UC-6.3: View System Audit Logs
+Actor: Administrator
+Flow: Query audit_log table populated via database triggers on INSERT/UPDATE/DELETE. Filter by user, table_name, timestamp using complex WHERE conditions.
+
+CREATE TABLE audit_log(
+    log_id INT AUTO_INCREMENT PRIMARY KEY,
+    user_name VARCHAR(100),
+    action_type VARCHAR(20),
+    table_name VARCHAR(50),
+    action_timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+    old_value TEXT,
+    new_value TEXT
+);
+
+DELIMITER $$
+
+CREATE TRIGGER patient_update_audit
+AFTER UPDATE ON patient
+FOR EACH ROW
+BEGIN
+    INSERT INTO audit_log(user_name, action_type, table_name, old_value, new_value)
+    VALUES (USER(), 'UPDATE', 'patient',
+            CONCAT('Old Name: ', OLD.patient_name),
+            CONCAT('New Name: ', NEW.patient_name));
+END $$
+
+DELIMITER ;
+
+SELECT *
+FROM audit_log
+WHERE table_name = 'patient'
+AND action_type = 'UPDATE'
+AND action_timestamp BETWEEN '2025-01-01' AND '2025-12-31'
+AND user_name LIKE '%admin%'
+ORDER BY action_timestamp DESC;

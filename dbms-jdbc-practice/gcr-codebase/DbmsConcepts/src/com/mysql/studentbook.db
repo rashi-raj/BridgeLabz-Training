@@ -1,0 +1,165 @@
+mysql> CREATE TABLE library_book (
+    book_id INT PRIMARY KEY,
+    book_title VARCHAR(50),
+    book_author VARCHAR(50),
+    book_category VARCHAR(50),
+    isbn_no VARCHAR(50),
+    total_stock INT,
+    available_stock INT
+);
+Query OK, 0 rows affected (0.17 sec)
+
+mysql> DESC library_book;
++------------------+-------------+------+-----+---------+-------+
+| Field            | Type        | Null | Key | Default | Extra |
++------------------+-------------+------+-----+---------+-------+
+| book_id          | int         | NO   | PRI | NULL    |       |
+| book_title       | varchar(50) | YES  |     | NULL    |       |
+| book_author      | varchar(50) | YES  |     | NULL    |       |
+| book_category    | varchar(50) | YES  |     | NULL    |       |
+| isbn_no          | varchar(50) | YES  |     | NULL    |       |
+| total_stock      | int         | YES  |     | NULL    |       |
+| available_stock  | int         | YES  |     | NULL    |       |
++------------------+-------------+------+-----+---------+-------+
+
+mysql> CREATE TABLE library_student (
+    student_id INT PRIMARY KEY,
+    student_name VARCHAR(50),
+    student_email VARCHAR(50),
+    student_branch VARCHAR(50)
+);
+Query OK, 0 rows affected (0.15 sec)
+
+mysql> DESC library_student;
++----------------+-------------+------+-----+---------+-------+
+| Field          | Type        | Null | Key | Default | Extra |
++----------------+-------------+------+-----+---------+-------+
+| student_id     | int         | NO   | PRI | NULL    |       |
+| student_name   | varchar(50) | YES  |     | NULL    |       |
+| student_email  | varchar(50) | YES  |     | NULL    |       |
+| student_branch | varchar(50) | YES  |     | NULL    |       |
++----------------+-------------+------+-----+---------+-------+
+
+mysql> CREATE TABLE book_issue (
+    issue_id INT PRIMARY KEY,
+    book_id INT,
+    student_id INT,
+    issue_date DATE,
+    due_date DATE,
+    return_date DATE,
+    FOREIGN KEY (book_id) REFERENCES library_book(book_id),
+    FOREIGN KEY (student_id) REFERENCES library_student(student_id)
+);
+Query OK, 0 rows affected (0.20 sec)
+
+mysql> DESC book_issue;
++-------------+------+------+-----+---------+-------+
+| Field       | Type | Null | Key | Default | Extra |
++-------------+------+------+-----+---------+-------+
+| issue_id    | int  | NO   | PRI | NULL    |       |
+| book_id     | int  | YES  | MUL | NULL    |       |
+| student_id  | int  | YES  | MUL | NULL    |       |
+| issue_date  | date | YES  |     | NULL    |       |
+| due_date    | date | YES  |     | NULL    |       |
+| return_date | date | YES  |     | NULL    |       |
++-------------+------+------+-----+---------+-------+
+
+mysql> CREATE TABLE late_fine (
+    fine_id INT PRIMARY KEY,
+    issue_id INT,
+    fine_amount DECIMAL(10,2),
+    payment_status BOOLEAN,
+    FOREIGN KEY (issue_id) REFERENCES book_issue(issue_id)
+);
+Query OK, 0 rows affected (0.13 sec)
+
+mysql> DESC late_fine;
++----------------+---------------+------+-----+---------+-------+
+| Field          | Type          | Null | Key | Default | Extra |
++----------------+---------------+------+-----+---------+-------+
+| fine_id        | int           | NO   | PRI | NULL    |       |
+| issue_id       | int           | YES  | MUL | NULL    |       |
+| fine_amount    | decimal(10,2) | YES  |     | NULL    |       |
+| payment_status | tinyint(1)    | YES  |     | NULL    |       |
++----------------+---------------+------+-----+---------+-------+
+
+mysql> INSERT INTO library_book
+(book_id, book_title, book_author, book_category, isbn_no, total_stock, available_stock)
+VALUES (11, 'Database Systems', 'Elmasri', 'Computer Science', 'ISBN9101', 6, 6);
+Query OK, 1 row affected (0.01 sec)
+
+mysql> SELECT * FROM library_book;
++---------+------------------+-------------+-------------------+----------+-------------+------------------+
+| book_id | book_title       | book_author | book_category    | isbn_no  | total_stock | available_stock |
++---------+------------------+-------------+-------------------+----------+-------------+------------------+
+|      11 | Database Systems | Elmasri     | Computer Science | ISBN9101 |           6 |                6 |
++---------+------------------+-------------+-------------------+----------+-------------+------------------+
+
+mysql> INSERT INTO library_student
+(student_id, student_name, student_email, student_branch)
+VALUES (201, 'Ananya Verma', 'ananya@college.edu', 'IT');
+Query OK, 1 row affected (0.01 sec)
+
+mysql> SELECT * FROM library_student;
++------------+---------------+----------------------+----------------+
+| student_id | student_name  | student_email        | student_branch |
++------------+---------------+----------------------+----------------+
+|        201 | Ananya Verma  | ananya@college.edu   | IT             |
++------------+---------------+----------------------+----------------+
+
+mysql> INSERT INTO book_issue
+(issue_id, book_id, student_id, issue_date, due_date, return_date)
+VALUES (501, 11, 201, '2026-03-01', '2026-03-08', NULL);
+Query OK, 1 row affected (0.01 sec)
+
+mysql> SELECT * FROM book_issue;
++----------+---------+------------+------------+------------+-------------+
+| issue_id | book_id | student_id | issue_date | due_date   | return_date |
++----------+---------+------------+------------+------------+-------------+
+|      501 |      11 |        201 | 2026-03-01 | 2026-03-08 | NULL        |
++----------+---------+------------+------------+------------+-------------+
+
+mysql> INSERT INTO late_fine
+(fine_id, issue_id, fine_amount, payment_status)
+VALUES (1, 501, 75.00, FALSE);
+Query OK, 1 row affected (0.01 sec)
+
+mysql> SELECT * FROM late_fine;
++---------+----------+-------------+----------------+
+| fine_id | issue_id | fine_amount | payment_status |
++---------+----------+-------------+----------------+
+|       1 |      501 |       75.00 |              0 |
++---------+----------+-------------+----------------+
+
+mysql> SELECT * FROM library_book
+WHERE book_category = 'Computer Science'
+AND book_author = 'Elmasri';
++---------+------------------+-------------+-------------------+----------+-------------+------------------+
+| book_id | book_title       | book_author | book_category    | isbn_no  | total_stock | available_stock |
++---------+------------------+-------------+-------------------+----------+-------------+------------------+
+|      11 | Database Systems | Elmasri     | Computer Science | ISBN9101 |           6 |                6 |
++---------+------------------+-------------+-------------------+----------+-------------+------------------+
+
+mysql> SELECT * FROM library_book WHERE available_stock > 0;
++---------+------------------+-------------+-------------------+----------+-------------+------------------+
+| book_id | book_title       | book_author | book_category    | isbn_no  | total_stock | available_stock |
++---------+------------------+-------------+-------------------+----------+-------------+------------------+
+|      11 | Database Systems | Elmasri     | Computer Science | ISBN9101 |           6 |                6 |
++---------+------------------+-------------+-------------------+----------+-------------+------------------+
+
+mysql> SELECT * FROM library_book WHERE book_title LIKE '%Data%';
++---------+------------------+-------------+-------------------+----------+-------------+------------------+
+| book_id | book_title       | book_author | book_category    | isbn_no  | total_stock | available_stock |
++---------+------------------+-------------+-------------------+----------+-------------+------------------+
+|      11 | Database Systems | Elmasri     | Computer Science | ISBN9101 |           6 |                6 |
++---------+------------------+-------------+-------------------+----------+-------------+------------------+
+
+mysql> SELECT * FROM library_book
+WHERE book_category = 'Computer Science'
+AND book_author = 'Elmasri'
+AND available_stock > 0;
++---------+------------------+-------------+-------------------+----------+-------------+------------------+
+| book_id | book_title       | book_author | book_category    | isbn_no  | total_stock | available_stock |
++---------+------------------+-------------+-------------------+----------+-------------+------------------+
+|      11 | Database Systems | Elmasri     | Computer Science | ISBN9101 |           6 |                6 |
++---------+------------------+-------------+-------------------+----------+-------------+------------------+
